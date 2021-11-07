@@ -1,0 +1,10 @@
+( Mat :15 Nom :Resp3 Salaire :154 ) {
+( Mat :13 Nom :Resp1 Salaire :120 ) {
+( Mat :12 Nom :Resp01 Salaire :120 ) {
+( Mat :11 Nom :Resp0 Salaire :120 )
+ {( Mat :9 Nom :Ss Salaire :120 )( Mat :10 Nom :Hf Salaire :140 ) }
+( Mat :4 Nom :sadds Salaire :120 )( Mat :5 Nom :ascd Salaire :140 )( Mat :6 Nom :gfdfd Salaire :100 ) }
+( Mat :1 Nom :SA Salaire :120 )( Mat :2 Nom :HS Salaire :140 )( Mat :3 Nom :HI Salaire :100 ) }
+( Mat :14 Nom :Resp2 Salaire :140 )
+ {( Mat :7 Nom :MA Salaire :100 )( Mat :8 Nom :AB Salaire :100 ) }
+ }
