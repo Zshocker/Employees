@@ -52,7 +52,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="File.dat">
+    <Text Include="File.json">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

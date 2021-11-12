@@ -1,0 +1,93 @@
+{
+  "Resp": {
+    "Emp": {
+      "Mat": 11,
+      "Nom": " Direct",
+      "Salaire": 170
+    },
+    "Hierch": {
+      "fils0": {
+        "Resp": {
+          "Emp": {
+            "Mat": 9,
+            "Nom": " Ss",
+            "Salaire": 120
+          },
+          "Hierch": {
+            "fils0": {
+              "Emp": {
+                "Mat": 7,
+                "Nom": " MA",
+                "Salaire": 100
+              }
+            },
+            "fils1": {
+              "Resp": {
+                "Emp": {
+                  "Mat": 8,
+                  "Nom": " AB",
+                  "Salaire": 100
+                },
+                "Hierch": {
+                  "fils0": {
+                    "Emp": {
+                      "Mat": 4,
+                      "Nom": " sadds",
+                      "Salaire": 120
+                    }
+                  },
+                  "fils1": {
+                    "Resp": {
+                      "Emp": {
+                        "Mat": 5,
+                        "Nom": " ascd",
+                        "Salaire": 140
+                      },
+                      "Hierch": {
+                        "fils0": {
+                          "Emp": {
+                            "Mat": 1,
+                            "Nom": " SA",
+                            "Salaire": 120
+                          }
+                        },
+                        "fils1": {
+                          "Emp": {
+                            "Mat": 2,
+                            "Nom": " HS",
+                            "Salaire": 140
+                          }
+                        },
+                        "fils2": {
+                          "Emp": {
+                            "Mat": 3,
+                            "Nom": " HI",
+                            "Salaire": 100
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "fils2": {
+                    "Emp": {
+                      "Mat": 6,
+                      "Nom": " gfdfd",
+                      "Salaire": 100
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "fils1": {
+        "Emp": {
+          "Mat": 10,
+          "Nom": " Hf",
+          "Salaire": 140
+        }
+      }
+    }
+  }
+}

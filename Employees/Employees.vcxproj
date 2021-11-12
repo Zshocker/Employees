@@ -154,7 +154,7 @@
     <ClCompile Include="Vente.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="File.dat" />
+    <Text Include="File.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -17,10 +17,20 @@ float Entreprise::Employee::Salary()
 
 void Entreprise::Employee::Print()
 {
-	cout << "( Mat :" << this->Matricule << " Nom :" << this->nom << " Salaire :" << this->Salary()<<" )";
+	cout << "Mat :" << this->Matricule << " Nom :" << this->nom << " Salaire :" << this->Salary();
 }
 
 void Entreprise::Employee::Print(fstream& F)
 {
-	F << "( Mat :" << this->Matricule << " Nom :" << this->nom << " Salaire :" << this->Salary() << " )";
+	F << "\"Emp\" :{ \"Mat\" :" << this->Matricule << ", \"Nom\" :\" " << this->nom << "\", \"Salaire\" :" << this->Salary()<<" } ";
 }
+
+//void Entreprise::Employee::PrintAllH()
+//{
+//	this->Print();
+//}
+//
+//void Entreprise::Employee::PrintAllH(fstream& F)
+//{
+//	this->Print(F);	
+//}

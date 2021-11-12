@@ -14,6 +14,8 @@ namespace Entreprise {
 		Employee(string nom, float ind);
 		float Salary();
 		void Print();
-		void Print(fstream& F);
+		virtual void Print(fstream& F);
+		//virtual void PrintAllH();
+		//virtual void PrintAllH(fstream& F);
 	};
 }
