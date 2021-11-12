@@ -9,10 +9,8 @@ namespace Entreprise {
     public :
         Respo(string nom,float ind, Employee** TabEmp,int numEmp);
         void PrintDirectH();
-        //void PrintAllH();
         void PrintDirectH(fstream& F);
         void Print(fstream& F);
-        //void PrintAllH(fstream& F);
     };
 }
 

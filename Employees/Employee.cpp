@@ -25,12 +25,3 @@ void Entreprise::Employee::Print(fstream& F)
 	F << "\"Emp\" :{ \"Mat\" :" << this->Matricule << ", \"Nom\" :\" " << this->nom << "\", \"Salaire\" :" << this->Salary()<<" } ";
 }
 
-//void Entreprise::Employee::PrintAllH()
-//{
-//	this->Print();
-//}
-//
-//void Entreprise::Employee::PrintAllH(fstream& F)
-//{
-//	this->Print(F);	
-//}

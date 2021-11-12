@@ -20,17 +20,6 @@ void Entreprise::Respo::PrintDirectH()
 	cout << " }" << endl;
 }
 
-//void Entreprise::Respo::PrintAllH()
-//{
-//	this->Employee::Print();
-//	cout << " {" << endl;
-//	for (int i = 0; i < numEmp; i++)
-//	{
-//		TabEmp[i]->PrintAllH();
-//	}
-//	cout  << " }" << endl;
-//}
-
 void Entreprise::Respo::PrintDirectH(fstream& F)
 {
 	this->Employee::Print(F);
@@ -58,22 +47,3 @@ void Entreprise::Respo::Print(fstream& F)
 	F << " }" << endl;
 	F << " }" << endl;
 }
-
-/*void Entreprise::Respo::PrintAllH(fstream& F)
-{
-	F << "{\"Resp\": {" << endl;
-	this->Print(F);
-	F << ", \"Hierch\": {" << endl;
-	for (int i = 0; i < numEmp; i++)
-	{
-		F << " \"fils"<<i<<"\": {" << endl;
-		TabEmp[i]->PrintAllH(F);
-		F << "}";
-		if (i < numEmp - 1)F << ",";
-		F << endl;
-	}
-	F << " }" << endl;
-	F << " }" << endl;
-	F << " }" << endl;
-}
-*/

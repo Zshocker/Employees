@@ -15,7 +15,5 @@ namespace Entreprise {
 		float Salary();
 		void Print();
 		virtual void Print(fstream& F);
-		//virtual void PrintAllH();
-		//virtual void PrintAllH(fstream& F);
 	};
 }
