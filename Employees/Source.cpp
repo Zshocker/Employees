@@ -23,10 +23,10 @@ void main() {
 		new Employee("Hf",140.45),
 	};
 	Respo* R2 = new Respo("Direct", 170, E2, 2);
-	/*fstream msd("File.json");
+	fstream msd("File.json", ios::out|ios::trunc);
 	msd << "{";
 	R2->Print(msd);
 	msd << "}";
-	msd.close();*/
+	msd.close();
 	cout<< Personnel::someSalary_verser();
 }

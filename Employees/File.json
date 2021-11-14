@@ -7,33 +7,33 @@
     },
     "Hierch": {
       "fils0": {
+        "Emp": {
+          "Mat": 10,
+          "Nom": " Hf",
+          "Salaire": 140.45
+        }
+      },
+      "fils1": {
         "Resp": {
           "Emp": {
             "Mat": 9,
             "Nom": " Ss",
-            "Salaire": 120
+            "Salaire": 12564
           },
           "Hierch": {
             "fils0": {
-              "Emp": {
-                "Mat": 7,
-                "Nom": " MA",
-                "Salaire": 100
-              }
-            },
-            "fils1": {
               "Resp": {
                 "Emp": {
                   "Mat": 8,
                   "Nom": " AB",
-                  "Salaire": 100
+                  "Salaire": 10130
                 },
                 "Hierch": {
                   "fils0": {
                     "Emp": {
-                      "Mat": 4,
-                      "Nom": " sadds",
-                      "Salaire": 120
+                      "Mat": 6,
+                      "Nom": " gfdfd",
+                      "Salaire": 11500
                     }
                   },
                   "fils1": {
@@ -41,28 +41,28 @@
                       "Emp": {
                         "Mat": 5,
                         "Nom": " ascd",
-                        "Salaire": 140
+                        "Salaire": 14230
                       },
                       "Hierch": {
                         "fils0": {
                           "Emp": {
-                            "Mat": 1,
-                            "Nom": " SA",
-                            "Salaire": 120
+                            "Mat": 3,
+                            "Nom": " HI",
+                            "Salaire": 10458
                           }
                         },
                         "fils1": {
                           "Emp": {
                             "Mat": 2,
                             "Nom": " HS",
-                            "Salaire": 140
+                            "Salaire": 1400
                           }
                         },
                         "fils2": {
                           "Emp": {
-                            "Mat": 3,
-                            "Nom": " HI",
-                            "Salaire": 100
+                            "Mat": 1,
+                            "Nom": " SA",
+                            "Salaire": 1200
                           }
                         }
                       }
@@ -70,22 +70,22 @@
                   },
                   "fils2": {
                     "Emp": {
-                      "Mat": 6,
-                      "Nom": " gfdfd",
-                      "Salaire": 100
+                      "Mat": 4,
+                      "Nom": " sadds",
+                      "Salaire": 1220
                     }
                   }
                 }
               }
+            },
+            "fils1": {
+              "Emp": {
+                "Mat": 7,
+                "Nom": " MA",
+                "Salaire": 10120
+              }
             }
           }
-        }
-      },
-      "fils1": {
-        "Emp": {
-          "Mat": 10,
-          "Nom": " Hf",
-          "Salaire": 140
         }
       }
     }
