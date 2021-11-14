@@ -1,9 +1,10 @@
 #pragma once
 #include<iostream>
 #include<fstream>
+#include"Personnel.h"
 using namespace std;
 namespace Entreprise {
-	class Employee
+	class Employee:	public Personnel
 	{
 		static unsigned long MatInc;
 		static float ValeurSalaire;
@@ -12,7 +13,7 @@ namespace Entreprise {
 		float indiceSalarial;
 	public:
 		Employee(string nom, float ind);
-		float Salary();
+		virtual float Salary();
 		void Print();
 		virtual void Print(fstream& F);
 	};
