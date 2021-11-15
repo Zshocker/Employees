@@ -22,6 +22,6 @@ void Entreprise::Employee::Print()
 
 void Entreprise::Employee::Print(fstream& F)
 {
-	F << "\"Emp\" :{ \"Mat\" :" << this->Matricule << ", \"Nom\" :\" " << this->nom << "\", \"Salaire\" :" << this->Salary()<<" } ";
+	F << "\"Emp\" :{ \"Mat\" :" << this->Matricule << ", \"Nom\" :\"" << this->nom << "\", \"Salaire\" :" << this->Salary()<<" } ";
 }
 

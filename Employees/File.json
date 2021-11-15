@@ -2,14 +2,14 @@
   "Resp": {
     "Emp": {
       "Mat": 11,
-      "Nom": " Direct",
+      "Nom": "Direct",
       "Salaire": 170
     },
     "Hierch": {
       "fils0": {
         "Emp": {
           "Mat": 10,
-          "Nom": " Hf",
+          "Nom": "Hf",
           "Salaire": 140.45
         }
       },
@@ -17,7 +17,7 @@
         "Resp": {
           "Emp": {
             "Mat": 9,
-            "Nom": " Ss",
+            "Nom": "Ss",
             "Salaire": 12564
           },
           "Hierch": {
@@ -25,14 +25,14 @@
               "Resp": {
                 "Emp": {
                   "Mat": 8,
-                  "Nom": " AB",
+                  "Nom": "AB",
                   "Salaire": 10130
                 },
                 "Hierch": {
                   "fils0": {
                     "Emp": {
                       "Mat": 6,
-                      "Nom": " gfdfd",
+                      "Nom": "gfdfd",
                       "Salaire": 11500
                     }
                   },
@@ -40,28 +40,28 @@
                     "Resp": {
                       "Emp": {
                         "Mat": 5,
-                        "Nom": " ascd",
+                        "Nom": "ascd",
                         "Salaire": 14230
                       },
                       "Hierch": {
                         "fils0": {
                           "Emp": {
                             "Mat": 3,
-                            "Nom": " HI",
+                            "Nom": "HI",
                             "Salaire": 10458
                           }
                         },
                         "fils1": {
                           "Emp": {
                             "Mat": 2,
-                            "Nom": " HS",
+                            "Nom": "HS",
                             "Salaire": 1400
                           }
                         },
                         "fils2": {
                           "Emp": {
                             "Mat": 1,
-                            "Nom": " SA",
+                            "Nom": "SA",
                             "Salaire": 1200
                           }
                         }
@@ -71,7 +71,7 @@
                   "fils2": {
                     "Emp": {
                       "Mat": 4,
-                      "Nom": " sadds",
+                      "Nom": "sadds",
                       "Salaire": 1220
                     }
                   }
@@ -81,7 +81,7 @@
             "fils1": {
               "Emp": {
                 "Mat": 7,
-                "Nom": " MA",
+                "Nom": "MA",
                 "Salaire": 10120
               }
             }

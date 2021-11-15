@@ -7,10 +7,6 @@ Entreprise::Personnel::Personnel()
 {
 	AllEmp.push_front(this);
 }
-float Entreprise::Personnel::Salary()
-{
-	return 0.0f;
-}
 double Entreprise::Personnel::someSalary_verser()
 {
     double res=0;

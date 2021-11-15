@@ -9,7 +9,7 @@ namespace Entreprise {
 	protected:
 		Personnel();
 	public:
-		virtual float Salary();
+		virtual float Salary()=0;
 		static double someSalary_verser();
 	};
 }
